@@ -1,0 +1,28 @@
+img{
+    float: right;
+}
+
+p{
+    text-align: center;
+}
+
+body{
+    display: inline-block;
+    background-color: white;
+}
+
+a:link{
+    background-color: blue;
+}
+
+a:visited{
+    background-color: lightgrey;
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+a:active{
+    background-color: blueviolet;
+}
