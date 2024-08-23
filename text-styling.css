@@ -1,0 +1,26 @@
+body{
+    background-image: url('images/simplilearn.jpg');
+}
+
+div{
+    border: 2px solid green;
+    padding: 8px;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: antiquewhite;
+}
+
+p{
+    color: aqua;
+    text-indent: 75px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+
+a{
+    text-decoration: solid;
+    color: brown;
+}
