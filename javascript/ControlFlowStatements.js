@@ -29,3 +29,69 @@ switch(fruit){
     default:
     console.log("It's something else");  
 }
+
+
+// Looping For , While , Do...while , For...in , For...of
+
+console.log('For loop...');
+
+for(let i=1; i<=5; i++){
+    console.log(i);
+}
+
+console.log('While loop...');
+
+let counter =3;
+while(counter >0){
+    console.log(counter);
+    counter--;
+}
+
+console.log('do...While Loop...');
+
+let doWhileCounter = 2;
+
+do{
+    console.log(doWhileCounter);
+    doWhileCounter--;
+}
+while(doWhileCounter>0);
+
+console.log('For...in loop - Object iteration');
+
+let person = {
+    name: 'jhon',
+    age: 30,
+    job: 'developer'
+}
+
+
+for(let key in person){
+    console.log(key +' : '+ person[key]);
+}
+
+console.log('For...of loop...');
+
+let numbers = [1,2,3,4,5];
+for(let num of numbers){
+    console.log(num);
+}
+
+// Break and Continue statement
+console.log('Break Statement:');
+
+for(let i=1; i<=5; i++){
+    if(i===3){
+        break;
+    }
+    console.log(i);
+}
+
+console.log('Continue Statement:');
+
+for(let i=1; i<=5; i++){
+    if(i===3){
+        continue;
+    }
+    console.log(i);
+}
